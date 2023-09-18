@@ -7,6 +7,7 @@ class Example {
         markupBuilder.collect(shelf:'New Arrivals'){
             movie(title:'忠犬八公')
             type('感人')
+            type('test')
         }
 
     }
