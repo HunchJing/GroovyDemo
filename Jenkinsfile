@@ -2,7 +2,19 @@ pipeline {
     agent any
 
     stages {
-        stage ('Compile Stage') {
+
+        stage(' test withCredentials ') {
+            steps {
+                withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', accessKeyVariable: 'AWS_ACCESS_KEY_ID', credentialsId: 'Logic-Test', secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']]) {
+                    // 在这里，您可以使用环境变量 AWS_ACCESS_KEY_ID 和 AWS_SECRET_ACCESS_KEY
+                    sh 'echo $AWS_ACCESS_KEY_ID'
+                    sh 'echo $AWS_SECRET_ACCESS_KEY'
+                }
+                echo 'Credentials SUCCESS'
+            }
+         }
+
+        stage ('Compile QA') {
 
             steps {
                 withMaven(maven : 'maven_3_5_0') {
@@ -11,7 +23,7 @@ pipeline {
             }
         }
 
-        stage ('Testing Stage') {
+        stage ('Testing QA') {
 
             steps {
                 withMaven(maven : 'maven_3_5_0') {
@@ -21,7 +33,7 @@ pipeline {
         }
 
 
-        stage ('Deployment Stage') {
+        stage ('Deployment QA') {
             steps {
                 withMaven(maven : 'maven_3_5_0') {
                     sh 'mvn deploy'
