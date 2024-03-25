@@ -3,6 +3,7 @@
 # or implementing the sample code, visit the AWS docs:
 # https://aws.amazon.com/developer/language/python/
 
+import json
 import os
 import boto3
 from botocore.exceptions import ClientError
@@ -23,6 +24,7 @@ print(region_name)
 #
 # bedrock_client = session.client('bedrock-runtime')
 # s3_client = session.client('s3')
+
 
 def get_secret():
 
@@ -66,5 +68,16 @@ def get_secret():
     # Your code goes here.
 
 
+def get_secret_with_cli_mode():
+    secret_name = "arn:aws:secretsmanager:us-east-1:160071257600:secret:prod/liujing/test-TPs4Kt"
+    region_name = "us-east-1"
+    secret_string = "SecretString"
+
+    get_secret_value_response = os.popen(f'aws secretsmanager get-secret-value --secret-id {secret_name} --region {region_name} --query {secret_string}').read()
+    secret = json.loads(get_secret_value_response)
+    return secret
+
+    
 if __name__ == '__main__':
-    get_secret()
+    # get_secret()
+    get_secret_with_cli_mode
