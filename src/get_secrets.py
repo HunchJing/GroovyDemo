@@ -14,7 +14,6 @@ aws_access_key_id = os.getenv('AWS_ACCESS_KEY_ID')
 aws_secret_access_key = os.getenv('AWS_SECRET_ACCESS_KEY')
 aws_session_token = os.getenv('AWS_SESSION_TOKEN')
 region_name = os.getenv('REGION_NAME')
-print(region_name)
 
 # session = boto3.Session(
 #     aws_access_key_id=aws_access_key_id,
@@ -80,4 +79,4 @@ def get_secret_with_cli_mode():
     
 if __name__ == '__main__':
     # get_secret()
-    get_secret_with_cli_mode
+    get_secret_with_cli_mode()
