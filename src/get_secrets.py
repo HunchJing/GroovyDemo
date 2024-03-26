@@ -5,11 +5,11 @@
 
 import json
 import os
-import boto3
-from botocore.exceptions import ClientError
-from dotenv import load_dotenv
+# import boto3
+# from botocore.exceptions import ClientError
+# from dotenv import load_dotenv
 
-load_dotenv()
+# load_dotenv()
 # aws_access_key_id = os.getenv('AWS_ACCESS_KEY_ID')
 # aws_secret_access_key = os.getenv('AWS_SECRET_ACCESS_KEY')
 # aws_session_token = os.getenv('AWS_SESSION_TOKEN')
@@ -25,34 +25,34 @@ region_name = os.getenv('REGION_NAME')
 # s3_client = session.client('s3')
 
 
-def get_secret():
-
-    secret_name = "prod/liujing/test"
-    region_name = "us-east-1"
-
-    # Create a Secrets Manager client
-    session = boto3.Session(
-        # aws_access_key_id=aws_access_key_id,
-        # aws_secret_access_key=aws_secret_access_key,
-        # aws_session_token=aws_session_token,
-        region_name=region_name
-    )
-    client = session.client(
-        service_name='secretsmanager',
-        region_name=region_name
-    )
-
-    try:
-        get_secret_value_response = client.get_secret_value(
-            SecretId=secret_name
-        )
-    except ClientError as e:
-        # For a list of exceptions thrown, see
-        # https://docs.aws.amazon.com/secretsmanager/latest/apireference/API_GetSecretValue.html
-        raise e
-
-    secret = get_secret_value_response['SecretString']
-    print(secret)
+# def get_secret():
+#
+#     secret_name = "prod/liujing/test"
+#     region_name = "us-east-1"
+#
+#     # Create a Secrets Manager client
+#     session = boto3.Session(
+#         # aws_access_key_id=aws_access_key_id,
+#         # aws_secret_access_key=aws_secret_access_key,
+#         # aws_session_token=aws_session_token,
+#         region_name=region_name
+#     )
+#     client = session.client(
+#         service_name='secretsmanager',
+#         region_name=region_name
+#     )
+#
+#     try:
+#         get_secret_value_response = client.get_secret_value(
+#             SecretId=secret_name
+#         )
+#     except ClientError as e:
+#         # For a list of exceptions thrown, see
+#         # https://docs.aws.amazon.com/secretsmanager/latest/apireference/API_GetSecretValue.html
+#         raise e
+#
+#     secret = get_secret_value_response['SecretString']
+#     print(secret)
 
 
 def get_secret_with_cli_mode():
