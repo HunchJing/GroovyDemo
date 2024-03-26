@@ -9,6 +9,9 @@ pipeline {
                     // 在这里，您可以使用环境变量 AWS_ACCESS_KEY_ID 和 AWS_SECRET_ACCESS_KEY
                     sh 'echo $AWS_ACCESS_KEY_ID'
                     sh 'echo $AWS_SECRET_ACCESS_KEY'
+                    sh("chmod +x ./src/test_with_credentials.py ")
+                    sh("python3 ./src/test_with_credentials.py --get_secret True")
+
                 }
                 echo 'Credentials SUCCESS'
             }

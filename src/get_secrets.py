@@ -10,9 +10,9 @@ from botocore.exceptions import ClientError
 from dotenv import load_dotenv
 
 load_dotenv()
-aws_access_key_id = os.getenv('AWS_ACCESS_KEY_ID')
-aws_secret_access_key = os.getenv('AWS_SECRET_ACCESS_KEY')
-aws_session_token = os.getenv('AWS_SESSION_TOKEN')
+# aws_access_key_id = os.getenv('AWS_ACCESS_KEY_ID')
+# aws_secret_access_key = os.getenv('AWS_SECRET_ACCESS_KEY')
+# aws_session_token = os.getenv('AWS_SESSION_TOKEN')
 region_name = os.getenv('REGION_NAME')
 
 # session = boto3.Session(
@@ -32,9 +32,9 @@ def get_secret():
 
     # Create a Secrets Manager client
     session = boto3.Session(
-        aws_access_key_id=aws_access_key_id,
-        aws_secret_access_key=aws_secret_access_key,
-        aws_session_token=aws_session_token,
+        # aws_access_key_id=aws_access_key_id,
+        # aws_secret_access_key=aws_secret_access_key,
+        # aws_session_token=aws_session_token,
         region_name=region_name
     )
     client = session.client(
@@ -54,18 +54,6 @@ def get_secret():
     secret = get_secret_value_response['SecretString']
     print(secret)
 
-    # Your code goes here.
-
-    # arn:aws:secretsmanager:us-east-1:160071257600:secret:prod/liujing/test-jfRcUG
-    # aws secretsmanager get-secret-value
-    # --secret-id arn:aws-cn:secretsmanager:cn-north-1:187021522403:secret:swf_signing_client_tokens_dev-o2yHsU
-    # --version-stage AWSCURRENT
-    # --query 'SecretString'
-    # --region cn-north-1
-    # --output text | base64 --decode | jq
-
-    # Your code goes here.
-
 
 def get_secret_with_cli_mode():
     secret_name = os.getenv('SECRET_NAME')
@@ -74,11 +62,10 @@ def get_secret_with_cli_mode():
     print(region_name)
     secret_string = "SecretString"
 
-    get_secret_value_response = os.popen(f'aws secretsmanager get-secret-value --secret-id {secret_name} --region {region_name} --query {secret_string}').read()
-    secret = json.loads(get_secret_value_response)
-    print(secret)
-    return secret
+    # get_secret_value_response = os.popen(f'aws secretsmanager get-secret-value --secret-id {secret_name} --region {region_name} --query {secret_string}').read()
+    # secret = json.loads(get_secret_value_response)
+    return secret_string
 
 
-if __name__ == '__main__':
-    get_secret_with_cli_mode()
+# if __name__ == '__main__':
+#     get_secret_with_cli_mode()
