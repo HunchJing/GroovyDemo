@@ -27,14 +27,12 @@ pipeline {
     stages {
         stage("Setup Environment") {
             steps {
-                script {
-                    node {
-                        def config = readYaml file: "${env.WORKSPACE}/pipeline-templates/logical-block-variables/prod-variable-tpl.yml"
-                        env.artiCredentialId = "${config.artiCredentialId}"
-                        env.artiServerName = "${config.artiServerName}"
-                        env.artiServerUrl = "${config.artiServerUrl}"
-                        env.artiServerId = "${config.artiServerId}"
-                    }
+                script {              
+                    def config = readYaml file: "${env.WORKSPACE}/pipeline-templates/logical-block-variables/prod-variable-tpl.yml"
+                    env.artiCredentialId = "${config.artiCredentialId}"
+                    env.artiServerName = "${config.artiServerName}"
+                    env.artiServerUrl = "${config.artiServerUrl}"
+                    env.artiServerId = "${config.artiServerId}"
                 }
             }
         }
