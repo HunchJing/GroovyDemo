@@ -1,0 +1,9 @@
+variables:
+- name: 'artiCredentialId'
+  value: 'RDCSCI_AWS_ARTIFACT'
+- name: 'artiServerName'
+  value: 'default-artifactory-server-id-2'
+- name: 'artiServerUrl'
+  value: 'https://artifact.swfcn.i.mercedes-benz.com'
+- name: 'artiServerId'
+  value: 'default-artifactory-server-id-2'
