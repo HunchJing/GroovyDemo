@@ -1,39 +1,43 @@
-node {
-    def config = readYaml file: "${env.WORKSPACE}/pipeline-templates/logical-block-variables/prod-variable-tpl.yml"
-    pipeline {
-        agent any
-        environment {
-            artiCredentialId = "${config.artiCredentialId}"
-            artiServerName = "${config.artiServerName}"
-            artiServerUrl = "${config.artiServerUrl}"
-            artiServerId = "${config.artiServerId}"     
-        }
-        parameters{
-            string(
-                name: 'BRANCH_NAME',
-                defaultValue: 'cicd-test',
-                description: 'Specify which branch for the repo'
-            )
-            string(
-                defaultValue: 'Pangu/releases_prebuild/R8-RC6/D6081_qnx_z8084-c2v0-d_entry_MB_R8-RC6.tar.gz',
-                description: 'jfrog path for dupkg',
-                name: 'DUPKG_PATH',
-                trim: true
-            )
-            string(
-                defaultValue: '99.0.0', description: 'Which Version to use?', name: 'SW_VERSION', trim: true
-            )
-            choice(
-                name: 'VARIANT',
-                choices: ['0', '1'],
-                description: 'Select the type of variant that corresponds to the provided orin flashware'
-            )
-        }
-        stages {
-            stage("Clean Workspace") {
-                steps {
-                    echo "artiCredentialId is: ${env.artiCredentialId}"
+pipeline {
+    agent any
+    parameters{
+        string(
+            name: 'BRANCH_NAME',
+            defaultValue: 'cicd-test',
+            description: 'Specify which branch for the repo'
+        )
+        string(
+            defaultValue: 'Pangu/releases_prebuild/R8-RC6/D6081_qnx_z8084-c2v0-d_entry_MB_R8-RC6.tar.gz',
+            description: 'jfrog path for dupkg',
+            name: 'DUPKG_PATH',
+            trim: true
+        )
+        string(
+            defaultValue: '99.0.0', description: 'Which Version to use?', name: 'SW_VERSION', trim: true
+        )
+        choice(
+            name: 'VARIANT',
+            choices: ['0', '1'],
+            description: 'Select the type of variant that corresponds to the provided orin flashware'
+        )
+    }
+    stages {
+        stage("Setup Environment") {
+            steps {
+                script {
+                    node {
+                        def config = readYaml file: "${env.WORKSPACE}/pipeline-templates/logical-block-variables/prod-variable-tpl.yml"
+                        env.artiCredentialId = "${config.artiCredentialId}"
+                        env.artiServerName = "${config.artiServerName}"
+                        env.artiServerUrl = "${config.artiServerUrl}"
+                        env.artiServerId = "${config.artiServerId}"
+                    }
                 }
+            }
+        }
+        stage("Clean Workspace") {
+            steps {
+                echo "artiCredentialId is: ${env.artiCredentialId}"
             }
         }
     }
