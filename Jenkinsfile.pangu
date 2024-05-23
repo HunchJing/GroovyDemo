@@ -1,13 +1,13 @@
-def config = readYaml file: "${${env.WORKSPACE}}/pipeline-templates/logical-block-variables/prod-variable-tpl.yml"
+def config = readYaml file: "${env.WORKSPACE}/pipeline-templates/logical-block-variables/prod-variable-tpl.yml"
 pipeline {
     agent any
     environment {
-        artiCredentialId =config.artiCredentialId
-        artiServerName = config.artiServerName
-        artiServerUrl = config.artiServerUrl
-        artiServerId = config.artiServerId       
+        artiCredentialId = "${config.artiCredentialId}"
+        artiServerName = "${config.artiServerName}"
+        artiServerUrl = "${config.artiServerUrl}"
+        artiServerId = "${config.artiServerId}"     
     }
-    parameters([
+    parameters{
         string(
             name: 'BRANCH_NAME',
             defaultValue: 'cicd-test',
@@ -24,13 +24,15 @@ pipeline {
             ),
         choice(
             name: 'VARIANT',
-            choices: [0, 1],
+             choices: ['0', '1'],
             description: 'Select the type of variant that corresponds to the provided orin flashware'
         )
-    ])
+    }
     stages {
         stage("Clean Workspace") {
-            println "artiCredentialId is: ${artiCredentialId}"
+            steps {
+                echo "artiCredentialId is: ${env.artiCredentialId}"
+            }
         }
     }
 }
