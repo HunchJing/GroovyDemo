@@ -29,10 +29,14 @@ pipeline {
             steps {
                 script {              
                     def config = readYaml file: "${env.WORKSPACE}/pipeline-templates/logical-block-variables/prod-variable-tpl.yml"
-                    env.artiCredentialId = "${config.artiCredentialId}"
-                    env.artiServerName = "${config.artiServerName}"
-                    env.artiServerUrl = "${config.artiServerUrl}"
-                    env.artiServerId = "${config.artiServerId}"
+                    env.artiCredentialId = config.variables.find { it.name == 'artiCredentialId' }.value
+                    env.artiServerName = config.variables.find { it.name == 'artiServerName' }.value
+                    env.artiServerUrl = config.variables.find { it.name == 'artiServerUrl' }.value
+                    env.artiServerId = config.variables.find { it.name == 'artiServerId' }.value
+                    println "artiCredentialId is: ${env.artiCredentialId}"
+                    println "artiServerName is: ${env.artiServerName}"
+                    println "artiServerUrl is: ${env.artiServerUrl}"
+                    println "artiServerId is: ${env.artiServerId}"
                 }
             }
         }
