@@ -20,8 +20,30 @@ pipeline {
         )
         choice(
             name: 'VARIANT',
-            choices: ['0', '1'],
+            choices: ['0','1','2','3'],
             description: 'Select the type of variant that corresponds to the provided orin flashware'
+        )
+        choice(
+            name: 'OUTPUT',
+            choices: ['yes','no'],
+            description: 'Select the type of variant that corresponds to the provided orin flashware'
+        )
+        choice(
+            name: 'COMPRESSION',
+            choices: ['no','yes'],
+            description: 'Select the type of variant that corresponds to the provided orin flashware'
+        )
+        string(
+            defaultValue: '0009020798',
+            description: 'The partnumber of the software (optional). By default will be derived via variant and logical block.',
+            name: 'SW_PARTNUMBER',
+            trim: true
+        )
+        string(
+            defaultValue: 'LB0_Orin_SW',
+            description: 'Select a logical block for generation, eg: LB0_Orin_SW',
+            name: 'LOGICAL_BLOCK',
+            trim: true
         )
     }
     stages {
@@ -33,10 +55,6 @@ pipeline {
                     env.artiServerName = config.variables.find { it.name == 'artiServerName' }.value
                     env.artiServerUrl = config.variables.find { it.name == 'artiServerUrl' }.value
                     env.artiServerId = config.variables.find { it.name == 'artiServerId' }.value
-                    println "artiCredentialId is: ${env.artiCredentialId}"
-                    println "artiServerName is: ${env.artiServerName}"
-                    println "artiServerUrl is: ${env.artiServerUrl}"
-                    println "artiServerId is: ${env.artiServerId}"
                 }
             }
         }
