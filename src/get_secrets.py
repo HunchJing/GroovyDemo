@@ -5,6 +5,7 @@
 
 import json
 import os
+import org.jfrog.build.api.Module
 # import boto3
 # from botocore.exceptions import ClientError
 # from dotenv import load_dotenv

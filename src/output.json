@@ -1,0 +1,786 @@
+[
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240312/deliverables/swup/dev/STAR3.0/20240312_246_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4176352104,
+      "created": "2024-03-12T15:59:05.460+08:00",
+      "modified": "2024-03-12T15:58:02.054+08:00",
+      "sha1": "ffe66847c167974b771fc9f2ead7de0d897c5f4e",
+      "sha256": "4fee8b05e2c4d2c73d279ad06c7a442cb335c81fa2a652d516cb9196dc17ab8b",
+      "md5": "22541515166c248ca1699690e72b4e57",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "18"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "246"
+        ],
+        "build.timestamp": [
+          "1710228180811"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240312/deliverables/swup/dev/STAR3.0/20240312_252_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4158362691,
+      "created": "2024-03-12T20:14:20.701+08:00",
+      "modified": "2024-03-12T20:13:15.308+08:00",
+      "sha1": "ea28c1bdc37fad7b360b7939168d3390ecd6756b",
+      "sha256": "ffc95f63d951b4113c2d8d1e987d6dfdf618211ad9bbad7ade56c4323ac0c73f",
+      "md5": "661614756ec4cfd717eee36b1c2f9e6f",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "21"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "252"
+        ],
+        "build.timestamp": [
+          "1710242263249"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240313/deliverables/swup/dev/STAR3.0/20240313_253_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4158282076,
+      "created": "2024-03-13T02:59:44.431+08:00",
+      "modified": "2024-03-13T02:58:21.307+08:00",
+      "sha1": "f9b81f6d9d6289ec4c2410303ef76f4b6149de68",
+      "sha256": "8031242b4f3b1041e2031ab1a993115c10e2730f7dda9a3befa44c391b377519",
+      "md5": "2bde49bf0b75554895901a333df61859",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "23"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "253"
+        ],
+        "build.timestamp": [
+          "1710267595729"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240313/deliverables/swup/dev/STAR3.0/20240313_255_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4158368272,
+      "created": "2024-03-13T12:52:44.446+08:00",
+      "modified": "2024-03-13T12:51:20.534+08:00",
+      "sha1": "c86bdd70de0d46072c80baa7612901b542266406",
+      "sha256": "95adf1e825a589a19c9ff868ae5b770f0d8fa579f98559816960c93da8bd796a",
+      "md5": "6bced2c71f57b6f5256b68e4bdbb568c",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "27"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "255"
+        ],
+        "build.timestamp": [
+          "1710303719815"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240313/deliverables/swup/dev/STAR3.0/20240313_257_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4158338263,
+      "created": "2024-03-13T18:47:30.651+08:00",
+      "modified": "2024-03-13T18:45:58.987+08:00",
+      "sha1": "bddd5cdb95f27832dacc62140c2aa74008a39dbd",
+      "sha256": "803f4952edd5c9cd6de543e63b420a9d077019e79a779078f681f959cffb3450",
+      "md5": "ea520e7be112de45e1d2243c360d21c8",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "29"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "257"
+        ],
+        "build.timestamp": [
+          "1710324980746"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240314/deliverables/swup/dev/STAR3.0/20240314_265_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4183543498,
+      "created": "2024-03-14T19:34:05.622+08:00",
+      "modified": "2024-03-14T19:32:45.200+08:00",
+      "sha1": "2f7a5f66ca99b3d5929bcff5a5e66bc94bce3f04",
+      "sha256": "5d22010245bec6b5b67d568d2d20ffbfb19e278a48c42d9d26a3160a510413c8",
+      "md5": "c05278aa6241806ef554fc9bcd0f7efa",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "31"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "265"
+        ],
+        "build.timestamp": [
+          "1710414100471"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240315/deliverables/swup/dev/STAR3.0/20240315_266_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4185161759,
+      "created": "2024-03-15T12:19:51.170+08:00",
+      "modified": "2024-03-15T12:18:43.079+08:00",
+      "sha1": "9821478b9fae735a568c92721bc019445fbd70c5",
+      "sha256": "2a22db89c1144cca6f9c5062067d122e382c43dc22cdbf2e921b12e09c4b9766",
+      "md5": "c44474279fb7e2fa3fcfa15fa9d8e40e",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "33"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "266"
+        ],
+        "build.timestamp": [
+          "1710474456968"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240315/deliverables/swup/dev/STAR3.0/20240315_267_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4185211250,
+      "created": "2024-03-15T14:52:42.330+08:00",
+      "modified": "2024-03-15T14:51:22.446+08:00",
+      "sha1": "25d6465d719e1f36a2f5f6943d2f1ae8ae729785",
+      "sha256": "efc2f7035d67882f14f1f1f7716808b57f80ff9d86974e12b1da6760cffea1f4",
+      "md5": "6b41e4cdcd53c920277adbb94f2cd855",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "34"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "267"
+        ],
+        "build.timestamp": [
+          "1710483739073"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240316/deliverables/swup/dev/STAR3.0/20240316_268_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4192632234,
+      "created": "2024-03-16T02:54:31.858+08:00",
+      "modified": "2024-03-16T02:53:11.016+08:00",
+      "sha1": "c65ac22a5d7423675d0e1c07caae40d93ddea451",
+      "sha256": "e4e733302e4a201dc7153de8570461260c0adf96e6ff08ea4f59701542aa5756",
+      "md5": "e9a7b2e053c10bb719cca8181aecf5ae",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "37"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "268"
+        ],
+        "build.timestamp": [
+          "1710526914031"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240316/deliverables/swup/dev/STAR3.0/20240316_270_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4192623152,
+      "created": "2024-03-16T14:47:06.983+08:00",
+      "modified": "2024-03-16T14:45:23.223+08:00",
+      "sha1": "5ffbf8d946738d3234f81644dfa508ca08a01692",
+      "sha256": "e3e2288686e6d5333916227a84e23400474af4ccbd2ddd35bffea4bd9818a67a",
+      "md5": "72736d9c272d599799a3f618ce8f9d36",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "41"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "270"
+        ],
+        "build.timestamp": [
+          "1710569649431"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240317/deliverables/swup/dev/STAR3.0/20240317_271_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4209994925,
+      "created": "2024-03-17T02:46:01.004+08:00",
+      "modified": "2024-03-17T02:44:23.444+08:00",
+      "sha1": "2c3d4ccabb89e2fb06d9f8204eb539bffca7b7b2",
+      "sha256": "58a11c18ae3fa163c3466a840630a928fa7db9c304d425bbd99c838dd328717b",
+      "md5": "03bbb4e97373ef66c52be2e2e32432f7",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "43"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "271"
+        ],
+        "build.timestamp": [
+          "1710612890841"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240317/deliverables/swup/dev/STAR3.0/20240317_273_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4209987323,
+      "created": "2024-03-17T14:44:54.922+08:00",
+      "modified": "2024-03-17T14:43:46.490+08:00",
+      "sha1": "9df665d01ed81e4d0d3f6e334fa61dbd5e09a43f",
+      "sha256": "44a5ca3c860d2687661992c355aabe8010bd67fb65bfc7e865a4c360a742eada",
+      "md5": "d50e5baa1bf670b069d3b9937e469cb9",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "47"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "273"
+        ],
+        "build.timestamp": [
+          "1710656066978"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240318/deliverables/swup/dev/STAR3.0/20240318_274_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4209995617,
+      "created": "2024-03-18T02:47:01.874+08:00",
+      "modified": "2024-03-18T02:45:10.437+08:00",
+      "sha1": "f751b11d6a07c35490e79f209fb86f2a788ae8a7",
+      "sha256": "8e1d35133d3fae6ae8b074345687f9667f4105632a23d3f91ed1528fa39ab9f6",
+      "md5": "ccbdd36f6a0648159c5c4f879ae16290",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "49"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "274"
+        ],
+        "build.timestamp": [
+          "1710699171382"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240318/deliverables/swup/dev/STAR3.0/20240318_276_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4209996837,
+      "created": "2024-03-18T14:01:45.428+08:00",
+      "modified": "2024-03-18T14:00:37.353+08:00",
+      "sha1": "7600f8414855e757bd98b23e2f185f60670f70f4",
+      "sha256": "45e380da23b4606eaf7ce2e27590e7918ada4595eeb9a00c984c06d7d30e4cc0",
+      "md5": "97481be5f2347d4be0ef19db2827270c",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "53"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "276"
+        ],
+        "build.timestamp": [
+          "1710739570173"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240319/deliverables/swup/dev/STAR3.0/20240319_284_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4214866726,
+      "created": "2024-03-19T22:03:48.136+08:00",
+      "modified": "2024-03-19T22:02:39.852+08:00",
+      "sha1": "2855a8f69c3dec1198f038c6c0587d9d81070c68",
+      "sha256": "c29f1acafeb8202955089caa65b1eda2ccaa6e1e68a47d6798f682c5bbc1c0d2",
+      "md5": "fef8f16adcc4914c789184f557abfd10",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "55"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "284"
+        ],
+        "build.timestamp": [
+          "1710854990759"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240320/deliverables/swup/dev/STAR3.0/20240320_285_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4214827768,
+      "created": "2024-03-20T02:58:35.937+08:00",
+      "modified": "2024-03-20T02:56:35.399+08:00",
+      "sha1": "e9833453f346adfcffacf6e72fb2eea1d63ee606",
+      "sha256": "ab655e70b882389cf5c3740891ab29a0580ba1de6a1c0e8a4ed7de1b6aec809f",
+      "md5": "80efbefd47dc59ad5217399458952494",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "57"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "285"
+        ],
+        "build.timestamp": [
+          "1710872647256"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240320/deliverables/swup/dev/STAR3.0/20240320_288_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4196426274,
+      "created": "2024-03-20T14:58:51.930+08:00",
+      "modified": "2024-03-20T14:57:24.241+08:00",
+      "sha1": "b1c72041b9d2a5332e629130f5223b8c37963b50",
+      "sha256": "32b0883ffa58414421d84681e18bf53f5fcf9aab50983f5eec2c27c087339f1b",
+      "md5": "ebc5b7fad392e1616905457fd2540314",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "61"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "288"
+        ],
+        "build.timestamp": [
+          "1710915839227"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240321/deliverables/swup/dev/STAR3.0/20240321_289_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4190762692,
+      "created": "2024-03-21T02:53:59.468+08:00",
+      "modified": "2024-03-21T02:52:54.903+08:00",
+      "sha1": "f9ccd857e6b172276e52b1eb7dc6d346dec74513",
+      "sha256": "6a61be03c951b6e825394c8f3c518324996c0cebda56d3aca66c9a5389434b34",
+      "md5": "1d226c1b7c1695f7a9e531e40bf27674",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "63"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "289"
+        ],
+        "build.timestamp": [
+          "1710958721555"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240321/deliverables/swup/dev/STAR3.0/20240321_291_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4190948307,
+      "created": "2024-03-21T14:50:05.426+08:00",
+      "modified": "2024-03-21T14:48:30.812+08:00",
+      "sha1": "c7840c16a43716cc68651c29a7260e5cc675be52",
+      "sha256": "9d301ef16410194dd2111a19394ce8d885a846afeaad612b94a98cba4e4aa27f",
+      "md5": "8a441ea998997c717229606e86e25f7d",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "67"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "291"
+        ],
+        "build.timestamp": [
+          "1711001833268"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240322/deliverables/swup/dev/STAR3.0/20240322_292_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4252704558,
+      "created": "2024-03-22T03:00:10.796+08:00",
+      "modified": "2024-03-22T02:58:11.257+08:00",
+      "sha1": "dd1f526ee32018b1398618b75248b40362b9d6de",
+      "sha256": "eecbe3230d5cec28b458e384e06715a90091e1d0332c33210e70ff09ac5c9dc4",
+      "md5": "fb24b7556b9b6dd0ada01b60b1c016ce",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "69"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "292"
+        ],
+        "build.timestamp": [
+          "1711045490734"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240322/deliverables/swup/dev/STAR3.0/20240322_294_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4253636035,
+      "created": "2024-03-22T14:54:29.745+08:00",
+      "modified": "2024-03-22T14:53:17.608+08:00",
+      "sha1": "c2abcf22456a8cdc33214d6cb0e939a4a4180708",
+      "sha256": "696018abaa321287273bd72f67d2b465d91014cbbbc69d79d54cade44ca84b15",
+      "md5": "68830366f4aac6679357edcaedb805ec",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "71"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "294"
+        ],
+        "build.timestamp": [
+          "1711088387439"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240323/deliverables/swup/dev/STAR3.0/20240323_295_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4266483515,
+      "created": "2024-03-23T02:52:01.928+08:00",
+      "modified": "2024-03-23T02:50:18.495+08:00",
+      "sha1": "f033ae8750c5b308a343181eb2069489317fc5b2",
+      "sha256": "7d1dd0b4e7d243dc6be7ff830b070cfd205e71aa6d0ca0cf69ecc319d0feda8f",
+      "md5": "75c83d7ed631e49ac1eff4440f1b612c",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "73"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "295"
+        ],
+        "build.timestamp": [
+          "1711131339872"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240323/deliverables/swup/dev/STAR3.0/20240323_297_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4266400140,
+      "created": "2024-03-23T14:47:27.365+08:00",
+      "modified": "2024-03-23T14:46:29.718+08:00",
+      "sha1": "d6fb11f5eb14dfd6776ec6b42348156a9dd7c505",
+      "sha256": "73de1642f0ec96bb36052f97b8e3875466b9c39537f3350e63ea38956947280c",
+      "md5": "0f7ea9a050b591103bfb98b3190e88b8",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "77"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "297"
+        ],
+        "build.timestamp": [
+          "1711174436528"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240324/deliverables/swup/dev/STAR3.0/20240324_298_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4266441102,
+      "created": "2024-03-24T02:48:30.120+08:00",
+      "modified": "2024-03-24T02:46:48.593+08:00",
+      "sha1": "d38b2ff41270f76b98487b190714b4e29b7cfdcd",
+      "sha256": "cdecc572eb5d39631e2ce422a97f6d195ebd5a5ca3842d64db961b9ed40f22ce",
+      "md5": "31ca30034dc5225bc095b7e95e3f347c",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "79"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "298"
+        ],
+        "build.timestamp": [
+          "1711217638782"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240324/deliverables/swup/dev/STAR3.0/20240324_300_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4266286348,
+      "created": "2024-03-24T14:46:00.793+08:00",
+      "modified": "2024-03-24T14:44:27.342+08:00",
+      "sha1": "cfad693b5751087af5436c2b7cb615cd1671747b",
+      "sha256": "dd963ace8d54e4dca15f3864196296dd794ba4ac7e2cb03c5bfc002e2b15b942",
+      "md5": "0ef1f4253ad8c9d11e11bb26ab64f8e2",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "81"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "300"
+        ],
+        "build.timestamp": [
+          "1711260815393"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240325/deliverables/swup/dev/STAR3.0/20240325_301_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4266401358,
+      "created": "2024-03-25T02:59:37.378+08:00",
+      "modified": "2024-03-25T02:57:44.407+08:00",
+      "sha1": "ca4a763bcd5fcb4ae0cebc4c77452f08ea416bb5",
+      "sha256": "43444acca7f75dfc403b21f8538c23304467089b095eadb90afd8ea490ca0d4a",
+      "md5": "54e197fa5feb2ad828333a1448eb823d",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "83"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "301"
+        ],
+        "build.timestamp": [
+          "1711304674148"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240325/deliverables/swup/dev/STAR3.0/20240325_303_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4266446217,
+      "created": "2024-03-25T14:49:49.700+08:00",
+      "modified": "2024-03-25T14:48:19.835+08:00",
+      "sha1": "811beef56356505439c9bf57c02d425db1fd598d",
+      "sha256": "5c69feec42ec61fd22be174c55767e2e4403e0a3e3c10186562232f01cc88e98",
+      "md5": "bc4942d8ce97961cbc2fb9b7e2ea10b1",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "87"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "303"
+        ],
+        "build.timestamp": [
+          "1711347300930"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240327/deliverables/swup/dev/STAR3.0/20240327_311_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 4289223969,
+      "created": "2024-03-27T14:54:43.468+08:00",
+      "modified": "2024-03-27T14:53:03.435+08:00",
+      "sha1": "f82be58ec2db78c8a45cea0ccfd8830662650b71",
+      "sha256": "b1527e99c00e5fab31e87ace75ae1d90c3b871dd0e07a19d34823d103f175409",
+      "md5": "e4294e7079556d13f96502e975c685ea",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "90"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "311"
+        ],
+        "build.timestamp": [
+          "1711520377077"
+        ]
+      }
+    },
+    {
+      "path": "apricot_rse/i3_RSU/RSE_Daily_Build/20240328/deliverables/swup/dev/STAR3.0/20240328_316_userdebug/BOOT_ALWAYS_ON/logical-blocks-i3-BOOT-STAR30_unencrypted.tar",
+      "type": "file",
+      "size": 2400134816,
+      "created": "2024-03-28T12:08:02.786+08:00",
+      "modified": "2024-03-28T12:07:23.683+08:00",
+      "sha1": "d2fdbeaa846d32a386c7785c0bd8fce1e8e89404",
+      "sha256": "5f8b16f57403af3334f39d96d3df5c7da30ef5cacfb1d6dbaaea5a7003e71e13",
+      "md5": "dac53e9a103fe1c7fdda7da8005c7fab",
+      "props": {
+        "build.name": [
+          "RSE :: Logical_Block :: LOGICAL_BLOCK_BOOT_DAILY"
+        ],
+        "build.number": [
+          "93"
+        ],
+        "build.parentName": [
+          "RSE :: NEW_BASELINE :: RSE_New_Nightly_Trigger_Build"
+        ],
+        "build.parentNumber": [
+          "316"
+        ],
+        "build.timestamp": [
+          "1711597466087"
+        ]
+      }
+    }
+  ]
+  

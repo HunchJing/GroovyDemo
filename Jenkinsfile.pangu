@@ -1,0 +1,30 @@
+pipeline {
+    agent any
+    stages {
+        stage("Clean Workspace") {
+                cleanWs()
+            }
+        stage("Prepare tools & dupkg") {
+                    sh "mkdir tmp"
+                    // sh "sudo jf rt dl --flat ${env.DUPKG_PATH} . && tar -xf ${dupkg} -C tmp/"
+                    sh "curl -o ${dupkg} -u RDCSCI:1q2w3e4r5R ${config.artiServerUrl}/${env.DUPKG_PATH} && tar -xf ${dupkg} -C tmp/"
+                    dduFile = sh(returnStdout: true, script: 'find tmp/output/ -type f -name "my-ddu*.tgz"').trim().split("/")[-1]
+                }
+
+                stage("build") {
+                    sh "./build.sh ./tmp/output/${dduFile} ${env.SW_VERSION} ${env.VARIANT} ${env.OUTPUT} ${env.COMPRESSION} ${env.SW_PARTNUMBER} ${env.LOGICAL_BLOCK}"
+                }
+
+                stage("Upload DKF") {
+                    def dateFormat = new SimpleDateFormat("yyyy-MM-dd")
+                    def currentDate = new Date()
+                    def formattedDate = dateFormat.format(currentDate)
+
+                    // sh "sudo jf rt u ./build/${env.LOGICAL_BLOCK}/*.gz Pangu_Prod/DKF/${formattedDate}_${BUILD_NUMBER}/"
+                    sh "curl --silent --show-error --retry 2 -u RDCSCI:1q2w3e4r5R -X PUT --upload-file ./build/${env.LOGICAL_BLOCK}/*.gz https://artifact.swfcn.i.mercedes-benz.com/Pangu_Prod/DKF/${formattedDate}_${BUILD_NUMBER}/"
+                    
+                    uploadFileToJenkinsArchive("build/${env.LOGICAL_BLOCK}/*.gz")
+                }
+
+    }
+}
