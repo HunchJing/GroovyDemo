@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    options {
+        disableConcurrentBuilds()
+    }
     parameters{
         string(
             name: 'BRANCH_NAME',
