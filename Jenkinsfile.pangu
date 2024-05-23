@@ -26,7 +26,7 @@ pipeline {
             steps {
                 script {
                     node {
-                        def config = readYaml file: "${env.WORKSPACE}/pipeline-templates/logical-block-variables/prod-variable-tpl.yml"
+                        def config = readYaml file: "${env.WORKSPACE}/GROOVYDEMO/pipeline-templates/logical-block-variables/prod-variable-tpl.yml"
                         env.artiCredentialId = "${config.artiCredentialId}"
                         env.artiServerName = "${config.artiServerName}"
                         env.artiServerUrl = "${config.artiServerUrl}"
